@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🩺 Heart Disease Prediction Web Application
 
 A comprehensive web application that uses machine learning algorithms to predict heart disease risk based on medical parameters. Built with Django and featuring a modern, responsive UI.
@@ -217,3 +218,6 @@ For support, email your-email@example.com or create an issue in this repository.
 **Made with ❤️ for Heart Health Awareness**
 
 *Last Updated: October 2025*
+=======
+# my_heart_app
+>>>>>>> 01d5742cb01e9830be0ea016101a45a090ae2651
