@@ -202,9 +202,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 This application is for educational and research purposes only. It is not intended to replace professional medical advice, diagnosis, or treatment. Always consult with qualified healthcare professionals for medical decisions.
 
-## 📞 Support
-
-For support, email your-email@example.com or create an issue in this repository.
 
 ## 🎉 Acknowledgments
 
