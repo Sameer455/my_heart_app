@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Heart Disease Prediction</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <style>
+        /* Gradient background */
+        body {
+            background: linear-gradient(to right,rgb(14, 27, 54),rgb(9, 23, 58));
+            color: white;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .about-container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .btn-custom {
+            background:rgb(9, 27, 33);
+            border: none;
+            padding: 12px 25px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            border-radius: 10px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .btn-custom:hover {
+            background:rgb(18, 131, 111);
+            transform: scale(1.05);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="about-container">
+            <h2>About Heart Disease Prediction</h2>
+            <p>
+                Our heart disease prediction system helps users assess their risk of heart disease 
+                based on medical parameters. Using **advanced machine learning models**, we analyze 
+                user inputs and provide **accurate predictions** to promote early health interventions.
+            </p>
+            <p>
+                This tool is **not a replacement for professional medical advice** but serves as a 
+                guide to encourage timely medical checkups and a heart-healthy lifestyle.
+            </p>
+            <a href="{% url 'index' %}" class="btn btn-custom">⬅ Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>

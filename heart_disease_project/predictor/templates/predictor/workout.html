@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Plan - Heart Health</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <style>
+        /* Dark Mode Background */
+        body {
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .workout-container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.1);
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.3);
+        }
+
+        .workout-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.2);
+            margin-bottom: 20px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .workout-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.5);
+        }
+
+        .workout-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #1abc9c;
+            text-shadow: 2px 2px 5px rgba(0, 255, 255, 0.5);
+        }
+
+        .workout-desc {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #ddd;
+        }
+
+        .btn-custom {
+            background: #1abc9c;
+            border: none;
+            padding: 12px 25px;
+            font-size: 18px;
+            font-weight: bold;
+            color: black;
+            border-radius: 10px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .btn-custom:hover {
+            background: #16a085;
+            transform: scale(1.05);
+        }
+
+        /* Glowing Animation */
+        .glow {
+            animation: glow 1.5s infinite alternate;
+        }
+
+        @keyframes glow {
+            0% {
+                text-shadow: 0px 0px 5px rgba(0, 255, 255, 0.5);
+            }
+            100% {
+                text-shadow: 0px 0px 20px rgba(0, 255, 255, 1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="workout-container">
+            <h2 class="glow">🏋️‍♂️ Heart-Healthy Workout Plan 🏋️‍♀️</h2>
+            <p>Improve heart health with this structured exercise routine.</p>
+            
+            <!-- Beginner Level -->
+            <div class="workout-card">
+                <h3 class="workout-title">💪 Beginner Level (30 min)</h3>
+                <p class="workout-desc">
+                    ✅ 10 min Brisk Walking 🚶‍♂️  
+                    ✅ 10 min Bodyweight Squats & Lunges 🏋️‍♂️  
+                    ✅ 10 min Stretching & Cool Down 🧘‍♀️  
+                </p>
+            </div>
+
+            <!-- Intermediate Level -->
+            <div class="workout-card">
+                <h3 class="workout-title">🔥 Intermediate Level (45 min)</h3>
+                <p class="workout-desc">
+                    ✅ 15 min Jogging or Cycling 🚴‍♂️  
+                    ✅ 15 min Resistance Training (Push-ups, Squats) 💪  
+                    ✅ 15 min Core & Balance Exercises (Planks, Yoga) 🧘‍♂️  
+                </p>
+            </div>
+
+            <!-- Advanced Level -->
+            <div class="workout-card">
+                <h3 class="workout-title">🏆 Advanced Level (60 min)</h3>
+                <p class="workout-desc">
+                    ✅ 20 min High-Intensity Cardio (Jump Rope, Sprints) 🏃‍♂️  
+                    ✅ 20 min Strength Training (Dumbbells, Kettlebells) 🏋️‍♀️  
+                    ✅ 20 min Recovery (Stretching & Meditation) 🧘‍♀️  
+                </p>
+            </div>
+
+            <!-- Additional Tips -->
+            <div class="workout-card">
+                <h3 class="workout-title">💡 Additional Tips</h3>
+                <p class="workout-desc">
+                    ✅ Exercise at least **5 days a week** 🗓️  
+                    ✅ Stay **hydrated** & eat a **balanced diet** 💧🥗  
+                    ✅ Listen to your body & avoid overexertion 🚑  
+                </p>
+            </div>
+
+            <a href="{% url 'index' %}" class="btn btn-custom">⬅ Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>
